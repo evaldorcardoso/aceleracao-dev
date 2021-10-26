@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "b4d7b981-d5e3-47db-a782-24ba7baf0bef",
+		"name": "Aceleracao PHP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Testes de Requisição",
+			"item": [
+				{
+					"name": "Buscar Distritos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"distritos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Mesoregioes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/RS/distritos",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"estados",
+								"RS",
+								"distritos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Paises",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/paises",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"paises"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Municípios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"municipios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Albuns",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/albums",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"albums"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Posts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Titulo do Post\",\n    \"body\": \"Conteudo do post\",\n    \"userId\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar Post",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 1,\n    \"title\": \"Titulo alterado\",\n    \"body\": \"Este é o conteudo do Post atualizado\",\n    \"userId\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
