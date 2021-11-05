@@ -1,1 +1,0 @@
-{"id":8955,"uid":"71d27711-3b3d-4f20-9855-2707d0b61c52","credit_card_number":"1211-1221-1234-2201","credit_card_expiry_date":"2022-11-04","credit_card_type":"maestro"}

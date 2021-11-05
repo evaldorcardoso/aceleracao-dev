@@ -1,7 +1,0 @@
-{"id":8443,"uid":"d14da249-7123-47f3-bbf2-884d56456b06","valid_card":"6011000990139424","token":"tok_mastercard_debit","invalid_card":"4000000000000069","month":"11","year":"2026","ccv":"759","ccv_amex":"9638"}
-{"id":8204,"uid":"853dd5b2-a7b7-4ff4-affe-cdb7071ee36f","valid_card":"2223003122003222","token":"tok_amex","invalid_card":"4100000000000019","month":"03","year":"2026","ccv":"467","ccv_amex":"7282"}
-{"id":4686,"uid":"99615eae-4379-4687-9b67-8f538dfe85de","app_name":"Bytecard","app_version":"8.4","app_author":"Wiegand-Bode","app_semantic_version":"8.3.5","app_major_version":"4.7.5","app_minor_version":"9.145.4","app_patch_version":"5.1.6"}
-{"id":2840,"uid":"0591d514-4422-4c1f-88d7-94ffa65ad7bf","brand":"Patagonia","name":"Sapporo Premium","style":"Wood-aged Beer","hop":"Ahtanum","yeast":"1335 - British Ale II","malts":"Black malt","ibu":"87 IBU","alcohol":"6.1%","blg":"7.1°Blg"}
-{"id":1070,"uid":"7dc5970f-c235-4ee8-816a-314a5d526d74","color":"azure","department":"Books \u0026 Movies","material":"Steel","product_name":"Aerodynamic Copper Clock","price":35.75,"price_string":"5.33","promo_code":"PremiumPromo827244"}
-{"id":3508,"uid":"594fcd76-d8eb-4b5c-85fa-07a4803ef3c5","build_number":177,"manufacturer":"Dell","model":"Huawei P10","platform":"Windows 8","serial_number":"NjGU0z33pgE4sTEED7VR","version":500}
-{"id":5574,"uid":"fc7a7826-5764-43b5-969a-d8424e8e0930","plan":"Professional","status":"Blocked","payment_method":"Cash","subscription_term":"Annual","payment_term":"Annual"}
