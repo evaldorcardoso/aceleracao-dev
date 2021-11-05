@@ -1,0 +1,3 @@
+Mensagem: A pasta ./professores não está vazia
+Arquivo: /opt/lampp/htdocs/aceleracao_php/exercicio56.php
+Linha: 14
