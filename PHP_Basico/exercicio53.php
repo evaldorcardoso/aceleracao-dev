@@ -35,7 +35,7 @@
     function alunoAprovado($n1, $n2){
         $retorno = false;
         if(($n1>7)&&($n2>7)){
-            if($n1+$n2 > 19){
+            if($n1+$n2 > 14){
                 $retorno = true;
             }
         }

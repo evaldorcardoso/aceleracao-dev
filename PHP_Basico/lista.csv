@@ -1,1 +1,194 @@
-Afeganistão,Albânia,Argélia,Andorra,Angola,Antígua e Barbuda,Azerbaijão,Argentina,Austrália,Áustria,Bahamas,Barein,Bangladesh,Armênia,Barbados,Bélgica,Butão,Bolívia,Bósnia e Herzegovina,Botsuana,Brasil,Belize,Ilhas Salomão,Brunei,Bulgária,Mianmar,Burundi,Belarus,Camboja,Camarões,Canadá,Cabo Verde,República Centro Africana,Sri Lanka,Chade,Chile,China,Colômbia,Comores,Congo,República Democrática do Congo,Costa Rica,Croácia,Cuba,Chipre,República Tcheca,Benin,Dinamarca,Dominica,República Dominicana,Equador,El Salvador,Guiné Equatorial,Etiópia,Eritréia,Estônia,Fiji,Finlândia,França,Djibouti,Gabão,Geórgia,Gâmbia,Alemanha,Gana,Kiribati,Grécia,Granada,Guatemala,Guiné,Guiana,Haiti,Honduras,Hungria,Islândia,Índia,Indonésia,Irã,Iraque,Irlanda,Israel,Itália,Costa do Marfim,Jamaica,Japão,Cazaquistão,Jordânia,Quênia,República Popular Democrática da Coréia,República da Coréia,Kuwait,Quirguistão,Laos,Líbano,Lesoto,Letônia,Libéria,Líbia,Liechtenstein,Lituânia,Luxemburgo,Madagáscar,Malauí,Malásia,Maldivas,Mali,Malta,Mauritânia,Maurício,México,Mônaco,Mongólia,Moldávia,Montenegro,Marrocos,Moçambique,Omã,Namíbia,Nauru,Nepal,Holanda,Vanuatu,Nova Zelândia,Nicarágua,Níger,Nigéria,Noruega,Micronésia,Ilhas Marshall,Palau,Paquistão,Panamá,Papua Nova Guiné,Paraguai,Peru,Filipinas,Polônia,Portugal,Guiné-Bissau,Timor Leste,Catar,Romênia,Rússia (Federação Russa),Ruanda,São Cristóvão e Nevis,Santa Lúcia,São Vicente e Granadinas,San Marino,São Tomé e Príncipe,Arábia Saudita,Senegal,Sérvia,Seichelles,Serra Leoa,Singapura,Eslováquia,Vietnã,Eslovênia,Somália,África do Sul,Zimbábue,Espanha,Sudão do Sul,Sudão,Suriname,Eswatini,Suécia,Suíça,Síria,Tadjiquistão,Tailândia,Togo,Tonga,Trinidad e Tobago,Emirados Árabes Unidos,Tunísia,Turquia,Turcomenistão,Tuvalu,Uganda,Ucrânia,Macedônia do Norte,Egito,Reino Unido,Tanzânia,Estados Unidos da América,Burkina Faso,Uruguai,Uzbequistão,Venezuela,Samoa,Iêmen,Zâmbia
+id,nome,regiao-intermediaria,sub-regiao
+4,Afeganistão,,34 - Ásia meridional (Sul da Ásia)
+8,Albânia,,39 - Europa meridional  (Sul da Europa)
+12,Argélia,,15 - África setentrional (Norte da África)
+20,Andorra,,39 - Europa meridional  (Sul da Europa)
+24,Angola,17 - África central,202 - África subsaariana
+28,Antígua e Barbuda,29 - Caribe,419 - América Latina e Caribe
+31,Azerbaijão,,145 - Ásia ocidental  (Oeste da Ásia)
+32,Argentina,5 - Ámerica do sul,419 - América Latina e Caribe
+36,Austrália,,53 - Austrália e Nova Zelândia
+40,Áustria,,155 - Europa ocidental (Oeste da Europa)
+44,Bahamas,29 - Caribe,419 - América Latina e Caribe
+48,Barein,,145 - Ásia ocidental  (Oeste da Ásia)
+50,Bangladesh,,34 - Ásia meridional (Sul da Ásia)
+51,Armênia,,145 - Ásia ocidental  (Oeste da Ásia)
+52,Barbados,29 - Caribe,419 - América Latina e Caribe
+56,Bélgica,,155 - Europa ocidental (Oeste da Europa)
+64,Butão,,34 - Ásia meridional (Sul da Ásia)
+68,Bolívia,5 - Ámerica do sul,419 - América Latina e Caribe
+70,Bósnia e Herzegovina,,39 - Europa meridional  (Sul da Europa)
+72,Botsuana,18 - África meridional (Sul da África),202 - África subsaariana
+76,Brasil,5 - Ámerica do sul,419 - América Latina e Caribe
+84,Belize,13 - América central,419 - América Latina e Caribe
+90,Ilhas Salomão,,54 - Melanésia
+96,Brunei,,35 - Sudeste da Ásia
+100,Bulgária,,151 - Europa oriental (Leste da Europa)
+104,Mianmar,,35 - Sudeste da Ásia
+108,Burundi,14 - África oriental (Leste da África),202 - África subsaariana
+112,Belarus,,151 - Europa oriental (Leste da Europa)
+116,Camboja,,35 - Sudeste da Ásia
+120,Camarões,17 - África central,202 - África subsaariana
+124,Canadá,,21 - América do Norte
+132,Cabo Verde,11 - África ocidental (Oeste da África),202 - África subsaariana
+140,República Centro Africana,17 - África central,202 - África subsaariana
+144,Sri Lanka,,34 - Ásia meridional (Sul da Ásia)
+148,Chade,17 - África central,202 - África subsaariana
+152,Chile,5 - Ámerica do sul,419 - América Latina e Caribe
+156,China,,30 - Ásia oriental (Leste da Ásia)
+170,Colômbia,5 - Ámerica do sul,419 - América Latina e Caribe
+174,Comores,14 - África oriental (Leste da África),202 - África subsaariana
+178,Congo,17 - África central,202 - África subsaariana
+180,República Democrática do Congo,17 - África central,202 - África subsaariana
+188,Costa Rica,13 - América central,419 - América Latina e Caribe
+191,Croácia,,39 - Europa meridional  (Sul da Europa)
+192,Cuba,29 - Caribe,419 - América Latina e Caribe
+196,Chipre,,145 - Ásia ocidental  (Oeste da Ásia)
+203,República Tcheca,,151 - Europa oriental (Leste da Europa)
+204,Benin,11 - África ocidental (Oeste da África),202 - África subsaariana
+208,Dinamarca,,154 - Europa setentrional (Norte da Europa)
+212,Dominica,29 - Caribe,419 - América Latina e Caribe
+214,República Dominicana,29 - Caribe,419 - América Latina e Caribe
+218,Equador,5 - Ámerica do sul,419 - América Latina e Caribe
+222,El Salvador,13 - América central,419 - América Latina e Caribe
+226,Guiné Equatorial,17 - África central,202 - África subsaariana
+231,Etiópia,14 - África oriental (Leste da África),202 - África subsaariana
+232,Eritréia,14 - África oriental (Leste da África),202 - África subsaariana
+233,Estônia,,154 - Europa setentrional (Norte da Europa)
+242,Fiji,,54 - Melanésia
+246,Finlândia,,154 - Europa setentrional (Norte da Europa)
+250,França,,155 - Europa ocidental (Oeste da Europa)
+262,Djibouti,14 - África oriental (Leste da África),202 - África subsaariana
+266,Gabão,17 - África central,202 - África subsaariana
+268,Geórgia,,145 - Ásia ocidental  (Oeste da Ásia)
+270,Gâmbia,11 - África ocidental (Oeste da África),202 - África subsaariana
+276,Alemanha,,155 - Europa ocidental (Oeste da Europa)
+288,Gana,11 - África ocidental (Oeste da África),202 - África subsaariana
+296,Kiribati,,57 - Micronésia
+300,Grécia,,39 - Europa meridional  (Sul da Europa)
+308,Granada,29 - Caribe,419 - América Latina e Caribe
+320,Guatemala,13 - América central,419 - América Latina e Caribe
+324,Guiné,11 - África ocidental (Oeste da África),202 - África subsaariana
+328,Guiana,5 - Ámerica do sul,419 - América Latina e Caribe
+332,Haiti,29 - Caribe,419 - América Latina e Caribe
+340,Honduras,13 - América central,419 - América Latina e Caribe
+348,Hungria,,151 - Europa oriental (Leste da Europa)
+352,Islândia,,154 - Europa setentrional (Norte da Europa)
+356,Índia,,34 - Ásia meridional (Sul da Ásia)
+360,Indonésia,,35 - Sudeste da Ásia
+364,Irã,,34 - Ásia meridional (Sul da Ásia)
+368,Iraque,,145 - Ásia ocidental  (Oeste da Ásia)
+372,Irlanda,,154 - Europa setentrional (Norte da Europa)
+376,Israel,,145 - Ásia ocidental  (Oeste da Ásia)
+380,Itália,,39 - Europa meridional  (Sul da Europa)
+384,Costa do Marfim,11 - África ocidental (Oeste da África),202 - África subsaariana
+388,Jamaica,29 - Caribe,419 - América Latina e Caribe
+392,Japão,,30 - Ásia oriental (Leste da Ásia)
+398,Cazaquistão,,143 - Ásia central
+400,Jordânia,,145 - Ásia ocidental  (Oeste da Ásia)
+404,Quênia,14 - África oriental (Leste da África),202 - África subsaariana
+408,República Popular Democrática da Coréia,,30 - Ásia oriental (Leste da Ásia)
+410,República da Coréia,,30 - Ásia oriental (Leste da Ásia)
+414,Kuwait,,145 - Ásia ocidental  (Oeste da Ásia)
+417,Quirguistão,,143 - Ásia central
+418,Laos,,35 - Sudeste da Ásia
+422,Líbano,,145 - Ásia ocidental  (Oeste da Ásia)
+426,Lesoto,18 - África meridional (Sul da África),202 - África subsaariana
+428,Letônia,,154 - Europa setentrional (Norte da Europa)
+430,Libéria,11 - África ocidental (Oeste da África),202 - África subsaariana
+434,Líbia,,15 - África setentrional (Norte da África)
+438,Liechtenstein,,155 - Europa ocidental (Oeste da Europa)
+440,Lituânia,,154 - Europa setentrional (Norte da Europa)
+442,Luxemburgo,,155 - Europa ocidental (Oeste da Europa)
+450,Madagáscar,14 - África oriental (Leste da África),202 - África subsaariana
+454,Malauí,14 - África oriental (Leste da África),202 - África subsaariana
+458,Malásia,,35 - Sudeste da Ásia
+462,Maldivas,,34 - Ásia meridional (Sul da Ásia)
+466,Mali,11 - África ocidental (Oeste da África),202 - África subsaariana
+470,Malta,,39 - Europa meridional  (Sul da Europa)
+478,Mauritânia,11 - África ocidental (Oeste da África),202 - África subsaariana
+480,Maurício,14 - África oriental (Leste da África),202 - África subsaariana
+484,México,13 - América central,419 - América Latina e Caribe
+492,Mônaco,,155 - Europa ocidental (Oeste da Europa)
+496,Mongólia,,30 - Ásia oriental (Leste da Ásia)
+498,Moldávia,,151 - Europa oriental (Leste da Europa)
+499,Montenegro,,39 - Europa meridional  (Sul da Europa)
+504,Marrocos,,15 - África setentrional (Norte da África)
+508,Moçambique,14 - África oriental (Leste da África),202 - África subsaariana
+512,Omã,,145 - Ásia ocidental  (Oeste da Ásia)
+516,Namíbia,18 - África meridional (Sul da África),202 - África subsaariana
+520,Nauru,,57 - Micronésia
+524,Nepal,,34 - Ásia meridional (Sul da Ásia)
+528,Holanda,,155 - Europa ocidental (Oeste da Europa)
+548,Vanuatu,,54 - Melanésia
+554,Nova Zelândia,,53 - Austrália e Nova Zelândia
+558,Nicarágua,13 - América central,419 - América Latina e Caribe
+562,Níger,11 - África ocidental (Oeste da África),202 - África subsaariana
+566,Nigéria,11 - África ocidental (Oeste da África),202 - África subsaariana
+578,Noruega,,154 - Europa setentrional (Norte da Europa)
+583,Micronésia,,57 - Micronésia
+584,Ilhas Marshall,,57 - Micronésia
+585,Palau,,57 - Micronésia
+586,Paquistão,,34 - Ásia meridional (Sul da Ásia)
+591,Panamá,13 - América central,419 - América Latina e Caribe
+598,Papua Nova Guiné,,54 - Melanésia
+600,Paraguai,5 - Ámerica do sul,419 - América Latina e Caribe
+604,Peru,5 - Ámerica do sul,419 - América Latina e Caribe
+608,Filipinas,,35 - Sudeste da Ásia
+616,Polônia,,151 - Europa oriental (Leste da Europa)
+620,Portugal,,39 - Europa meridional  (Sul da Europa)
+624,Guiné-Bissau,11 - África ocidental (Oeste da África),202 - África subsaariana
+626,Timor Leste,,35 - Sudeste da Ásia
+634,Catar,,145 - Ásia ocidental  (Oeste da Ásia)
+642,Romênia,,151 - Europa oriental (Leste da Europa)
+643,Rússia (Federação Russa),,151 - Europa oriental (Leste da Europa)
+646,Ruanda,14 - África oriental (Leste da África),202 - África subsaariana
+659,São Cristóvão e Nevis,29 - Caribe,419 - América Latina e Caribe
+662,Santa Lúcia,29 - Caribe,419 - América Latina e Caribe
+670,São Vicente e Granadinas,29 - Caribe,419 - América Latina e Caribe
+674,San Marino,,39 - Europa meridional  (Sul da Europa)
+678,São Tomé e Príncipe,17 - África central,202 - África subsaariana
+682,Arábia Saudita,,145 - Ásia ocidental  (Oeste da Ásia)
+686,Senegal,11 - África ocidental (Oeste da África),202 - África subsaariana
+688,Sérvia,,39 - Europa meridional  (Sul da Europa)
+690,Seichelles,14 - África oriental (Leste da África),202 - África subsaariana
+694,Serra Leoa,11 - África ocidental (Oeste da África),202 - África subsaariana
+702,Singapura,,35 - Sudeste da Ásia
+703,Eslováquia,,151 - Europa oriental (Leste da Europa)
+704,Vietnã,,35 - Sudeste da Ásia
+705,Eslovênia,,39 - Europa meridional  (Sul da Europa)
+706,Somália,14 - África oriental (Leste da África),202 - África subsaariana
+710,África do Sul,18 - África meridional (Sul da África),202 - África subsaariana
+716,Zimbábue,14 - África oriental (Leste da África),202 - África subsaariana
+724,Espanha,,39 - Europa meridional  (Sul da Europa)
+728,Sudão do Sul,14 - África oriental (Leste da África),202 - África subsaariana
+729,Sudão,,15 - África setentrional (Norte da África)
+740,Suriname,5 - Ámerica do sul,419 - América Latina e Caribe
+748,Eswatini,18 - África meridional (Sul da África),202 - África subsaariana
+752,Suécia,,154 - Europa setentrional (Norte da Europa)
+756,Suíça,,155 - Europa ocidental (Oeste da Europa)
+760,Síria,,145 - Ásia ocidental  (Oeste da Ásia)
+762,Tadjiquistão,,143 - Ásia central
+764,Tailândia,,35 - Sudeste da Ásia
+768,Togo,11 - África ocidental (Oeste da África),202 - África subsaariana
+776,Tonga,,61 - Polinésia
+780,Trinidad e Tobago,29 - Caribe,419 - América Latina e Caribe
+784,Emirados Árabes Unidos,,145 - Ásia ocidental  (Oeste da Ásia)
+788,Tunísia,,15 - África setentrional (Norte da África)
+792,Turquia,,145 - Ásia ocidental  (Oeste da Ásia)
+795,Turcomenistão,,143 - Ásia central
+798,Tuvalu,,61 - Polinésia
+800,Uganda,14 - África oriental (Leste da África),202 - África subsaariana
+804,Ucrânia,,151 - Europa oriental (Leste da Europa)
+807,Macedônia do Norte,,39 - Europa meridional  (Sul da Europa)
+818,Egito,,15 - África setentrional (Norte da África)
+826,Reino Unido,,154 - Europa setentrional (Norte da Europa)
+834,Tanzânia,14 - África oriental (Leste da África),202 - África subsaariana
+840,Estados Unidos da América,,21 - América do Norte
+854,Burkina Faso,11 - África ocidental (Oeste da África),202 - África subsaariana
+858,Uruguai,5 - Ámerica do sul,419 - América Latina e Caribe
+860,Uzbequistão,,143 - Ásia central
+862,Venezuela,5 - Ámerica do sul,419 - América Latina e Caribe
+882,Samoa,,61 - Polinésia
+887,Iêmen,,145 - Ásia ocidental  (Oeste da Ásia)
+894,Zâmbia,14 - África oriental (Leste da África),202 - África subsaariana
