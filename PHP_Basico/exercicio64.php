@@ -1,7 +1,8 @@
 <?php
     interface IServicos{
-        public function calculaSalario(int $diasTrabalhados):String;
-        public function calculaSalarioMaisGratificacao(int $diasTrabalhados):String;
+        public function calculaSalario(int $diasTrabalhados, String $cargo):String;
+        public function calculaSalarioMaisGratificacao(int $diasTrabalhados, String
+        $valorGravacao):String;
     }
 
     class Funcionarios implements IServicos{        
@@ -15,7 +16,7 @@
             $this->nome = $nome;
         }
 
-        public function calculaSalario(int $diasTrabalhados):String{
+        public function calculaSalario(int $diasTrabalhados, String $cargo):String{
             $this->diasTrabalhados = $diasTrabalhados;
             $this->valorDiaTrabalhado = $this->salarioPadrao / 30;
             if($diasTrabalhados >= 15){
@@ -25,7 +26,8 @@
             }            
         }
 
-        public function calculaSalarioMaisGratificacao(int $diasTrabalhados):String{
+        public function calculaSalarioMaisGratificacao(int $diasTrabalhados, String
+        $valorGravacao):String{
             $this->diasTrabalhados = $diasTrabalhados;
             $this->valorDiaTrabalhado = $this->salarioPadrao2 / 30;
             $porcentagem = 0;
@@ -42,6 +44,6 @@
     }
 
     $funcionario = new Funcionarios('João');
-    echo $funcionario->calculaSalario(15);
-    echo $funcionario->calculaSalarioMaisGratificacao(15);
+    echo $funcionario->calculaSalario(15, 'Desenvolvedor de Sistemas');
+    echo $funcionario->calculaSalarioMaisGratificacao(15, 999);
 ?>

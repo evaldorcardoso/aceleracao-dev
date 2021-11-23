@@ -20,8 +20,12 @@
             $this->database = $database;
         }
 
-        public function open($date){}
-        public function save(){}
+        public function open($date){
+            //implementacao do metodo
+        }
+        public function save(IDatabase $database){
+            //implementacao do metodo
+        }
     }
 
     
