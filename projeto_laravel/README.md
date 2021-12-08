@@ -7,5 +7,5 @@
     * Instalar as dependências: **composer require laravel/sail --dev**
     * Criar o alias para o sail: **alias sail='bash vendor/bin/sail'**
     * Subir os containers: **sail up -d**
-    * Rodar as migrations: **sail artisan migrate**
- * O sistema estará rodando no endereço: **http://localhost/perfil**
+    * Rodar as migrations do banco de dados: **sail artisan migrate**
+ * O sistema estará rodando no endereço: **http://localhost**

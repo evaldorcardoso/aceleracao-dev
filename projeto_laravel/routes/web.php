@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AssinaturaController;
 use App\Http\Controllers\DocumentoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
@@ -16,7 +17,9 @@ use App\Http\Controllers\UsuarioController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('inicio');
+})->name('home');
 Route::get('/perfil', [UsuarioController::class, 'index'])->name('perfil');
 Route::get('/documentos/{id}', [DocumentoController::class, 'show'])->name('documentos.show');
+Route::get('/assinaturas', [AssinaturaController::class, 'index'])->name('assinaturas.index');
+Route::get('/assinaturas/{id}', [AssinaturaController::class, 'show'])->name('assinaturas.show');
