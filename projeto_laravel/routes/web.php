@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DocumentoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
 
@@ -17,4 +18,5 @@ use App\Http\Controllers\UsuarioController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/perfil', [UsuarioController::class, 'index']);
+Route::get('/perfil', [UsuarioController::class, 'index'])->name('perfil');
+Route::get('/documentos/{id}', [DocumentoController::class, 'show'])->name('documentos.show');

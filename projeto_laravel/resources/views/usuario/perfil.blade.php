@@ -9,6 +9,7 @@
         <th>Número de Assinaturas</th>
         <th>Assinatura Responsável</th>
         <th>Páginas</th>
+        <th>Ações</th>
       </tr>
 @foreach($documentos as $documento)
     <tr>
@@ -17,6 +18,7 @@
       <th>{{ $documento['num_assinaturas'] }}</th>
       <th>{{ $documento['assinatura_responsavel'] }}</th>
       <th>{{ $documento['qtd_paginas'] }}</th>
+      <th><a href={{route('documentos.show', $documento['id'])}}>Exibir Documento</a></th>
     </tr>
 @endforeach
 </table>
