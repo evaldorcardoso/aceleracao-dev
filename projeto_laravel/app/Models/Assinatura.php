@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Assinatura extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'qtd_caracteres',
+        'assinatura_padrao',
+        'assinatura_usada_x_vezes'
+    ];
 }

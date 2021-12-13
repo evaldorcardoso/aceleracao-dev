@@ -25,4 +25,6 @@ Route::get('/documentos/novo', [DocumentoController::class, 'create'])->name('do
 Route::post('/documentos/salvar', [DocumentoController::class, 'store'])->name('documentos.store');
 Route::delete('/documentos/remover/{id}', [DocumentoController::class, 'destroy'])->name('documentos.destroy');
 Route::get('/assinaturas', [AssinaturaController::class, 'index'])->name('assinaturas.index');
-Route::get('/assinaturas/{id}', [AssinaturaController::class, 'show'])->name('assinaturas.show');
+Route::get('/assinaturas/exibir/{id}', [AssinaturaController::class, 'show'])->name('assinaturas.show');
+Route::get('/assinaturas/novo', [AssinaturaController::class, 'create'])->name('assinaturas.create');
+Route::post('/assinaturas/salvar', [AssinaturaController::class, 'store'])->name('assinaturas.store');

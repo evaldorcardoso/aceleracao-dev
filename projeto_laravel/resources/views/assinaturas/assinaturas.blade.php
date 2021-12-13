@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>Assinaturas</title>
 </head>
 <body>
     <h1>Assinaturas:</h1>
+    <br>
+    <a href={{route('assinaturas.create')}}>Nova Assinatura</a>
+    <br>
+    @if(session('success'))
+    <div class="alert alert-success">
+      <h3>Tudo certo!</h3>
+      <ul>        
+          <li>{{session('success')}}</li>
+      </ul>
+    </div>
+    @endif
+    <br>
     <table>
         <tr>
             <th>Assinatura</th>
@@ -27,21 +40,4 @@
     <br><br>
     <a href={{route('home')}}>Voltar para o Início</a>
 </body>
-<style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-</style>
 </html>
