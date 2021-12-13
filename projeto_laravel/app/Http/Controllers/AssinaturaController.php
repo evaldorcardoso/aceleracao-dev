@@ -37,4 +37,15 @@ class AssinaturaController extends Controller
         
         return redirect()->back()->with('error', 'Erro ao cadastrar assinatura!');
     }
+
+    public function destroy($id)
+    {
+        $assinatura = Assinatura::find($id);
+        if($assinatura->delete())
+        {
+            return redirect()->route('assinaturas.index')->with('success', 'Assinatura excluída com sucesso!');
+        }
+        
+        return redirect()->back()->with('error', 'Erro ao excluir assinatura!');
+    }
 }

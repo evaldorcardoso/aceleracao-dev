@@ -12,7 +12,13 @@
     <p>Usada quantas vezes? {{$assinatura['assinatura_usada_x_vezes']}}</p>
     <p>Criado em: {{$assinatura['created_at']}}</p>
     <p>Atualizado em: {{$assinatura['updated_at']}}</p>
-    <br><br>
+    <br>
+    <form action="{{route('assinaturas.destroy', $assinatura['id'])}}" method="POST">
+        @csrf
+        @method('DELETE')
+        <button type="submit">Excluir</button>
+    </form>
+    <br>
     <a href="{{route('assinaturas.index')}}">Voltar</a>
 </body>
 </html>

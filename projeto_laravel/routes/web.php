@@ -28,3 +28,4 @@ Route::get('/assinaturas', [AssinaturaController::class, 'index'])->name('assina
 Route::get('/assinaturas/exibir/{id}', [AssinaturaController::class, 'show'])->name('assinaturas.show');
 Route::get('/assinaturas/novo', [AssinaturaController::class, 'create'])->name('assinaturas.create');
 Route::post('/assinaturas/salvar', [AssinaturaController::class, 'store'])->name('assinaturas.store');
+Route::delete('assinaturas/remover/{id}', [AssinaturaController::class, 'destroy'])->name('assinaturas.destroy');
