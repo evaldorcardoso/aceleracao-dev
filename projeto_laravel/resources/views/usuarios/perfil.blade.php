@@ -26,7 +26,7 @@
   <table>
       <tr>
           <th>Título</th>
-          <th>Tamanho(Kbs)</th>
+          <th>Tamanho(Mb)</th>
           <th>Número de Assinaturas</th>
           <th>Assinatura Responsável</th>
           <th>Páginas</th>
@@ -35,7 +35,7 @@
   @foreach($documentos as $documento)
       <tr>
         <th>{{ $documento['titulo'] }}</th>
-        <th>{{ $documento['tamanho'] }}kb</th>
+        <th>{{ $documento['tamanho'] }}Mb</th>
         <th>{{ $documento['num_assinaturas'] }}</th>
         <th>{{ $documento['assinatura_responsavel'] }}</th>
         <th>{{ $documento['qtd_paginas'] }}</th>

@@ -17,7 +17,7 @@
         <input type="text" name="titulo">
     </div>
     <div class="form-group">
-        <label for="tamanho">Tamanho(Kb)</label>
+        <label for="tamanho">Tamanho(Mb)</label>
         <input type="number" name="tamanho">
     </div>        
     <div class="form-group">
