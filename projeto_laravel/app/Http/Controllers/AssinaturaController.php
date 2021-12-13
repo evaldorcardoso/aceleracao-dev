@@ -11,13 +11,13 @@ class AssinaturaController extends Controller
     {
         $assinaturas = Assinatura::all();
         
-        return view('assinaturas', compact('assinaturas'));
+        return view('assinaturas.assinaturas', compact('assinaturas'));
     }
 
     public function show($id)
     {
         $assinatura = Assinatura::find($id);
         
-        return view('exibeassinatura', compact('assinatura'));
+        return view('assinaturas.exibeassinatura', compact('assinatura'));
     }
 }

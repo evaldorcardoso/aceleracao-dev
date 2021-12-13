@@ -14,6 +14,6 @@ class UsuarioController extends Controller
         $documentos = Documento::all();
         Log::channel('documentos')->info('Usuários e Documentos consultados com sucesso!');
 
-        return view('usuario.perfil', compact('usuarios', 'documentos'));
+        return view('usuarios.perfil', compact('usuarios', 'documentos'));
     }
 }

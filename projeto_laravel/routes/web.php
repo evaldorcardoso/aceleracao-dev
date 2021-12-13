@@ -20,6 +20,8 @@ Route::get('/', function () {
     return view('inicio');
 })->name('home');
 Route::get('/perfil', [UsuarioController::class, 'index'])->name('perfil');
-Route::get('/documentos/{id}', [DocumentoController::class, 'show'])->name('documentos.show');
+Route::get('/documentos/exibir/{id}', [DocumentoController::class, 'show'])->name('documentos.show');
+Route::get('/documentos/novo', [DocumentoController::class, 'create'])->name('documentos.create');
+Route::post('/documentos/salvar', [DocumentoController::class, 'store'])->name('documentos.store');
 Route::get('/assinaturas', [AssinaturaController::class, 'index'])->name('assinaturas.index');
 Route::get('/assinaturas/{id}', [AssinaturaController::class, 'show'])->name('assinaturas.show');
