@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{asset('css/app.css')}}">
-<h1>Cadastrar nova Assinatura:</h1>
+<h1 class="text-center">Cadastrar nova Assinatura:</h1>
 <hr>
 @if($errors->any())
 <div class="alert alert-danger">
@@ -15,15 +15,15 @@
     @csrf
     <div class="form-group">
         <label for="titulo">Assinatura padrão</label>
-        <input type="text" name="assinatura_padrao">
+        <input type="text" name="assinatura_padrao" value="{{old('assinatura_padrao')}}">
     </div>
     <div class="form-group">
         <label for="tamanho">Quantidade de Caracteres</label>
-        <input type="number" name="qtd_caracteres">
+        <input type="number" name="qtd_caracteres" value="{{old('qtd_caracteres')}}" >
     </div>        
     <div class="form-group">
         <label for="num_assinaturas">Usada quantas vezes?</label>
-        <input type="number" name="assinatura_usada_x_vezes">
+        <input type="number" name="assinatura_usada_x_vezes" value="{{old('assinatura_usada_x_vezes')}}">
     </div>    
     <button type="submit">Cadastrar</button>
     <a href="{{route('assinaturas.index')}}">Voltar</a>    

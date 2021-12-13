@@ -1,4 +1,5 @@
-<h1>Cadastrar novo Documento:</h1>
+<link rel="stylesheet" href="{{asset('css/app.css')}}">
+<h1 class="text-center">Cadastrar novo Documento:</h1>
 <hr>
 @if($errors->any())
 <div class="alert alert-danger">
@@ -14,61 +15,24 @@
     @csrf
     <div class="form-group">
         <label for="titulo">Título</label>
-        <input type="text" name="titulo">
+        <input type="text" name="titulo" value="{{old('titulo')}}">
     </div>
     <div class="form-group">
         <label for="tamanho">Tamanho(Mb)</label>
-        <input type="number" name="tamanho">
+        <input type="number" name="tamanho" value="{{old('tamanho')}}">
     </div>        
     <div class="form-group">
         <label for="num_assinaturas">Número de Assinaturas</label>
-        <input type="number" name="num_assinaturas">
+        <input type="number" name="num_assinaturas" value="{{old('num_assinaturas')}}">
     </div>
     <div class="form-group">
         <label for="assinatura_responsavel">Assinatura do Responsável</label>
-        <input type="text" name="assinatura_responsavel">
+        <input type="text" name="assinatura_responsavel" value="{{old('assinatura_responsavel')}}">
     </div>
     <div class="form-group">
         <label for="qtd_paginas">Quantidade de Páginas</label>
-        <input type="number" name="qtd_paginas">
+        <input type="number" name="qtd_paginas" value="{{old('qtd_paginas')}}">
     </div>
     <button type="submit">Cadastrar</button>
     <a href="{{route('perfil')}}">Voltar</a>    
 </form>
-<style>
-    h1{
-        text-align: center;
-    }
-    form {
-        width: 500px;
-        margin: 0 auto;
-    }
-    .form-group {
-        margin-bottom: 20px;
-        display: grid;
-    }
-    .alert{
-        width: 500px;
-        border-radius: 5px;
-        margin: 20px auto; 
-        padding: 10px;       
-    }
-    .alert-danger{
-        background-color: #e24141;
-    }
-    .alert-success{
-        background-color: #4caf50;
-    }
-    .alert ul{
-        text-align: center;
-        list-style: none;
-    }
-    .alert ul li{
-        margin-left: -40px;
-        color: #fff;
-    }
-    .alert h3{
-        color: #fff;
-        text-align: center;
-    }
-</style>
