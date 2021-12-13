@@ -25,4 +25,12 @@ class DocumentoController extends Controller
         }
         return redirect()->back()->with('error', 'Erro ao cadastrar documento!');
     }
+
+    function destroy($id){
+        $documento = Documento::find($id);
+        if($documento->delete()){
+            return redirect()->route('perfil')->with('success', 'Documento excluído com sucesso!');
+        }
+        return redirect()->back()->with('error', 'Erro ao excluir documento!');
+    }
 }

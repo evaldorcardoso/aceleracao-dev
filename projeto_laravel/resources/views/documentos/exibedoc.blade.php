@@ -5,5 +5,11 @@
 <p>Quantidade de Páginas: {{$documento['qtd_paginas']}}</p>
 <p>Criado em: {{$documento['created_at']}}</p>
 <p>Atualizado em: {{$documento['updated_at']}}</p>
-<br><br>
+<br>
+<form action="{{route('documentos.destroy', $documento['id'])}}" method="POST">
+    @csrf
+    @method('DELETE')
+    <button type="submit">Excluir</button>
+</form>
+<br>
 <a href="{{route('perfil')}}">Voltar</a>
