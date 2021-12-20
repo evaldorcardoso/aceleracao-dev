@@ -33,4 +33,13 @@ class DocumentoController extends Controller
         }
         return redirect()->back()->with('error', 'Erro ao excluir documento!');
     }
+
+    function login(){
+        $usuario = ["id" => rand(1, 100), "nome" => "João da Silva"];
+        session(["usuario" => $usuario]);
+    }
+
+    function logout(){
+        session()->forget('usuario');
+    }
 }

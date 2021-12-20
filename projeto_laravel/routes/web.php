@@ -19,11 +19,17 @@ use App\Http\Controllers\UsuarioController;
 Route::get('/', function () {
     return view('inicio');
 })->name('home');
+Route::get('/login', [DocumentoController::class, 'login'])->name('login');
+Route::get('/logout', [DocumentoController::class, 'logout'])->name('logout');
 Route::get('/perfil', [UsuarioController::class, 'index'])->name('perfil');
+
+Route::middleware('validasessao')->group(function(){
+    Route::post('/documentos/salvar', [DocumentoController::class, 'store'])->name('documentos.store');
+    Route::delete('/documentos/remover/{id}', [DocumentoController::class, 'destroy'])->name('documentos.destroy');
+});
+
 Route::get('/documentos/exibir/{id}', [DocumentoController::class, 'show'])->name('documentos.show');
 Route::get('/documentos/novo', [DocumentoController::class, 'create'])->name('documentos.create');
-Route::post('/documentos/salvar', [DocumentoController::class, 'store'])->name('documentos.store');
-Route::delete('/documentos/remover/{id}', [DocumentoController::class, 'destroy'])->name('documentos.destroy');
 Route::get('/assinaturas', [AssinaturaController::class, 'index'])->name('assinaturas.index');
 Route::get('/assinaturas/exibir/{id}', [AssinaturaController::class, 'show'])->name('assinaturas.show');
 Route::get('/assinaturas/novo', [AssinaturaController::class, 'create'])->name('assinaturas.create');

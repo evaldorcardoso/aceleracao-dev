@@ -22,6 +22,14 @@
     </ul>
   </div>
   @endif
+  @if(session('error'))
+  <div class="alert alert-danger">
+    <h3>Ops!</h3>
+    <ul>        
+        <li>{{session('error')}}</li>
+    </ul>
+  </div>
+  @endif
   <br>
   <table>
       <tr>
