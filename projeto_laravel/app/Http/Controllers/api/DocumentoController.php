@@ -38,7 +38,8 @@ class DocumentoController extends Controller
      */
     public function show($id)
     {
-        //
+        $documento = Documento::find($id);
+        return response()->json($documento);
     }
 
     /**
