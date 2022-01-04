@@ -30,4 +30,15 @@ class Pessoa{
             'escolaridade' => $this->escolaridade
         ];
     }
+
+    public function toString(){
+        return json_encode([
+            'id' => $this->id,
+            'nome' => $this->nome,
+            'email' => $this->email,
+            'profissao' => $this->profissao,
+            'escolaridade' => $this->escolaridade,
+            'token' => $this->token
+        ]);
+    }
 }
