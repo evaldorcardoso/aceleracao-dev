@@ -8,6 +8,11 @@ use App\Models\Documento;
 
 class DocumentoController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('jwt.auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
