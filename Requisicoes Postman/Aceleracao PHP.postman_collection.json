@@ -206,6 +206,428 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Projeto Laravel",
+			"item": [
+				{
+					"name": "Index Documentos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2NDE1ODQ0NTAsImV4cCI6MTY0MTU4ODA1MCwibmJmIjoxNjQxNTg0NDUwLCJqdGkiOiJJS082d1VtV0tIUG9vTkdzIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.xm-jKqhmEMk75o3JKZfA2xiWtyBdhwEmRXjOMrw1BrU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/documentos?",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"documentos"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Documento",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2NDEyOTY5MTgsImV4cCI6MTY0MTMwMDUxOCwibmJmIjoxNjQxMjk2OTE4LCJqdGkiOiJHakRmU055U2xLNzVNOWNKIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.GgNOBNzSky0upFO4BM4JbA7ciM0J49eFDErhlucqK0U",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/documentos/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"documentos",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "kling.rey@example.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvcmVmcmVzaCIsImlhdCI6MTY0MTIzMTQ3NCwiZXhwIjoxNjQxMjM2NTMwLCJuYmYiOjE2NDEyMzI5MzAsImp0aSI6Ildwc2RVMWdOd2c5YmkwN1QiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.uYovXQSZS9oZpg7Z5yi9BkD71t0lcmqRWfa7L6XlWrw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Refresh token",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2NDEyMzE0NzQsImV4cCI6MTY0MTIzNTA3NCwibmJmIjoxNjQxMjMxNDc0LCJqdGkiOiJlUkFQZXNJeGZlOGZ3R293Iiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.gKK-MbR-73WkxAwvJEo7DfkzY-2xqMz0asiT-TJJVFc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/refresh",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Relatorio",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2NDE4MTUxOTAsImV4cCI6MTY0MTgxODc5MCwibmJmIjoxNjQxODE1MTkwLCJqdGkiOiJlWDJGaXJJNkZzY2ZYbTc5Iiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.PNK9q2Ag--RM0YLP9d9Ol-MwOeO70FS7GsjeZk0pgWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/relatorio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"relatorio"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "App3",
+			"item": [
+				{
+					"name": "Alunos destroy",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/alunos/53",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"alunos",
+								"53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alunos update",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "_method",
+									"value": "PUT",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "213",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "joaozinho",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "joaozinho@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "registration",
+									"value": "634872648236",
+									"type": "text"
+								},
+								{
+									"key": "fullname",
+									"value": "Joaozinho da Silva",
+									"type": "text"
+								},
+								{
+									"key": "birthday",
+									"value": "2001-01-02",
+									"type": "text"
+								},
+								{
+									"key": "financial_responsable",
+									"value": "Pedro da Silva",
+									"type": "text"
+								},
+								{
+									"key": "cpf",
+									"value": "74980522025",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "financial_plan_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/alunos/53",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"alunos",
+								"53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alunos store",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "joaozinho",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "joaozinho@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "registration",
+									"value": "634872648236",
+									"type": "text"
+								},
+								{
+									"key": "fullname",
+									"value": "Joaozinho da Silva",
+									"type": "text"
+								},
+								{
+									"key": "birthday",
+									"value": "2001-01-02",
+									"type": "text"
+								},
+								{
+									"key": "financial_responsable",
+									"value": "Pedro da Silva",
+									"type": "text"
+								},
+								{
+									"key": "cpf",
+									"value": "74980522025",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "financial_plan_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/alunos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"alunos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
