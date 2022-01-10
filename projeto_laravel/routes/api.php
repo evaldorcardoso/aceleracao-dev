@@ -2,8 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\api\DocumentoController;
-use App\Http\Controllers\api\LoginController;
+use App\Http\Controllers\api\{DocumentoController, LoginController, AssinaturaController, AnaliseController, RelatorioDeAnaliseController};
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +20,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('login', [LoginController::class, 'login'])->name('login');
-Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
-Route::get('/refresh', [LoginController::class, 'refresh'])->name('refresh');
 
-Route::apiResource('documentos', DocumentoController::class);
+Route::group(["middleware" => ["jwt-auth"]], function(){
+    Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+    Route::get('/refresh', [LoginController::class, 'refresh'])->name('refresh');
+    Route::apiResource('documentos', DocumentoController::class);
+    Route::apiResource('assinaturas', AssinaturaController::class);
+    Route::apiResource('analises', AnaliseController::class);
+    Route::get('/relatorio', [RelatorioDeAnaliseController::class, 'index'])->name('relatorio');
+});

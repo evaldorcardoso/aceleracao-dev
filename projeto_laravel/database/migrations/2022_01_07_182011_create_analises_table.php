@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAssinaturasTable extends Migration
+class CreateAnalisesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateAssinaturasTable extends Migration
      */
     public function up()
     {
-        Schema::connection('pgsql')->create('assinaturas', function (Blueprint $table) {
+        Schema::connection('pgsql')->create('analises', function (Blueprint $table) {
             $table->id();
-            $table->integer('qtd_caracteres');
-            $table->string('assinatura_padrao');
-            $table->integer('assinatura_usada_x_vezes')->default(0);
+            $table->integer('id_doc');
+            $table->integer('id_assinatura');
+            $table->string('status', 45);
+            $table->date('data_analise');
+            $table->integer('visualizadores');
             $table->timestamps();
         });
     }
@@ -29,6 +31,6 @@ class CreateAssinaturasTable extends Migration
      */
     public function down()
     {
-        Schema::connection('pgsql')->dropIfExists('assinaturas');
+        Schema::connection('pgsql')->dropIfExists('analises');
     }
 }
